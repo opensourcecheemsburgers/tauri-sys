@@ -124,7 +124,7 @@ pub mod app;
 pub mod clipboard;
 #[cfg(feature = "dialog")]
 pub mod dialog;
-mod error;
+pub mod error;
 #[cfg(feature = "event")]
 pub mod event;
 #[cfg(feature = "global_shortcut")]
